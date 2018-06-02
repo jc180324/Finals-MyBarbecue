@@ -1,0 +1,129 @@
+﻿html, body {
+	height: 100%;
+	width: 100%;
+}
+h3 {
+	color: whitesmoke;
+	font-style: italic;
+}
+
+label {
+	color: white;
+}
+
+#tools {
+	border-radius: 100%;
+}
+#vegy {
+	border-radius:100%;
+}
+
+.navbar-nav {
+	margin: 0px 0px;
+}
+.navbar {
+	background-color: #23415C;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #FFF;
+}
+.btn-default {
+	background-color: transparent;
+	color: white
+}
+#home {
+	background: url(img/BBQday.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#grill {
+	border-radius: 100%;
+}
+
+
+
+.bg-img {
+	background: url(img/coal.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	min-height: 900px;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700%;
+	color: whitesmoke;
+	font-family: georgia;
+	font-style: italic;
+}
+.padding{
+	padding: 20px 0px;
+}
+.padding img {
+	width: 100%;
+}
+#fixed {
+	background: url(img/BBQday.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer {
+	width: 100%;
+	background-color: #23415C;
+	padding: 5% 5% 10% 5%;
+	color:#FFF;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+@media (max-width:768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px ;
+	}
+}
+address {
+	color: #FFF;
+}
+
+/*grid for recipes*/
+
