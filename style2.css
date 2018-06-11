@@ -1,14 +1,25 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	background: beige;
 }
 header {
     height: 80px;
     width: 0%;
 }
+h2 {
+	text-align: center;
+	width: 100%;
+}
+body{
+
+
+text-rendering: auto;
+}
+
 
 #home {
-	background: url(img/reciepe.jpg) no-repeat center center fixed;
+	background: url(img/recipe2.jpg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
@@ -16,7 +27,7 @@ header {
 	background-size: cover;
 }
 #fixed {
-	background: url(img/reciepe.jpg) no-repeat center center fixed;
+	background: url(img/recipe2.jpg) no-repeat center center fixed;
 	display: table;
 	height: 60%;
 	position: relative;
@@ -33,7 +44,7 @@ header {
 	font-size: 700%;
 	font-weight: 700%;
 	color: black;
-    font-family: Georgia;
+    font-family: palatino;
     font-style: italic;
 }
 .padding{
@@ -42,8 +53,6 @@ header {
 .padding img {
 	width: 100%;
 }
-
-
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -90,11 +99,21 @@ header {
 .btn-default{
     color: black;
     background-color: transparent;
-
 }
+
+.btn-primary{
+	background-color: black;
+	border-color: white;
+	margin-left: 5px;
+	font-size: 14px;
+	padding-bottom: 10px; padding-top:10px;
+	margin-top: 5px;
+}
+
 .seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
 	margin-left: 0; 
 }
+
 .eleven {
 	width: 91.5%;
 	float: left;
@@ -155,7 +174,9 @@ header {
 	width: 100%;
 	clear: both; 
 	padding: 0px;
-    margin: 0px;
+	margin: 0;
+	
+	background: beige;
     
 }
 
@@ -181,70 +202,111 @@ header {
 
 .row3 .left {
     background: url(img/griiledchicken.jpg) no-repeat center center;
+   color: whitesmoke;
+   font-size: bold;
   
+   
 }
+
 .row3 .middle5 {
-    background: url(img/grilled-vegetables.jpg) no-repeat center center;
+	background: url(img/grilled-vegetables.jpg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 .row3 .middle6 {
-    background: url(img/porkbarbecue.jpg) no-repeat center center;
+	background: url(img/porkbarbecue.jpg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 .row3 .right {
-    background: url(img/shishkebabvege.jpeg) no-repeat center center;
+	background: url(img/shrimp.jpg) no-repeat center center;
+	color:whitesmoke;
+	font-size: bold;
 }
 /*row 4*/
 
 .row4 .middle3 {
-    background: url(img/steak.jpeg) no-repeat center center;
+	background: url(img/steak.jpeg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 .row4 .middle4 {
-    background: url(img/pizza.jpeg) no-repeat center center;
+	background: url(img/lamb.jpeg) no-repeat center center;
+	color:black;
+	font-size: bold;
+	
 }
 .row4 .left {
-    background: url(img/beefsteak.jpeg) no-repeat center center;
+	background: url(img/beefsteak.jpeg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 .row4 .right {
-    background: url(img/grilledham.jpeg) no-repeat center center;
+	background: url(img/grilledham.jpeg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 
 /*row 5*/
 
 .row5 .left {
-    background: url(img/hamburgerpatties.jpeg);
+	background: url(img/hamburgerpatties.jpeg);
+	color: whitesmoke;
+	font-size: bold;
 }
 .row5 .middle1 {
-    background: url(img/sausage.jpg) no-repeat center center;
+	background: url(img/sausage.jpg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 .row5 .middle2 {
-    background: url(img/ribsback.jpeg) no-repeat center center;
+	background: url(img/ribsback.jpeg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 .row5 .right {
-    background: url(img/lambchops.jpg);
+	background: url(img/pizza.jpeg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
 }
 
-/*row 5*/
+/*row 6*/
 
 .row6 .left{
-    background: url(img/pulledpork.jpg) no-repeat center center;
+	background: url(img/pulledpork.jpg) no-repeat center center;
+	color: whitesmoke;
+	font-size: bold;
+	
 }
 .row6 .middle7{
-    background: url(img/ribeye.jpg) no-repeat center center;
+	background: url(img/ribeye.jpg) no-repeat center center;
+	color: black;
+	font-size: bold;
 }
 .row6 .middle8{
-    background: url(img/chickenrose.jpeg) no-repeat center center;
+	background: url(img/chickenrose.jpeg) no-repeat center center;
+	color: black;
+	font-size: bold;
 }
 .row6 .right{
-    background: url(img/grilledfish.jpg)no-repeat center center;
+	background: url(img/grilledfish.jpg)no-repeat center center;
+	color: black;
+	font-size: bold;
 }
 
 /*row 7*/
 .row7 {
     background: #e5e3db;
 }
+
 .row3, .row4, .row5, .row6, .row7 {
     margin-top: 30px;
-    padding-top: 30px;
+	padding-top: 30px;
+	background: beige;
+	width: 100%;
 }
+	
+
 footer {
     
     margin-top: 30px;
@@ -256,7 +318,8 @@ footer {
     }
     @media (max-width:768px) {
         .landing-text h1 {
-            font-size: 300%;
+			font-size: 500%;
+			font-weight: 700%;
         }
         .fa {
             font-size: 20px;
@@ -265,5 +328,18 @@ footer {
         .icon {
             padding-top: 5%;
             max-width: 100px ;
-        }
-}
+		}
+		.row {
+			max-width: 100%;
+		}
+		
+	}
+	
+	.container-fluid {
+		
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	

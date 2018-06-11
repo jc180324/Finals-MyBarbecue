@@ -7,6 +7,15 @@ h3 {
 	font-style: italic;
 }
 
+h1 {
+	color: white;
+	margin-left: 10px;
+}
+
+body{
+	background: beige;
+	
+}
 label {
 	color: white;
 }
@@ -55,8 +64,8 @@ label {
 
 
 
-.bg-img {
-	background: url(img/coal.jpg) no-repeat center center fixed;
+#bg-img {
+	
 	display: table;
 	height: 100%;
 	position: relative;
@@ -64,16 +73,18 @@ label {
 	background-size: cover;
 	min-height: 900px;
 }
+
 .landing-text {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+	width: 100%
 }
 .landing-text h1 {
 	font-size: 500%;
 	font-weight: 700%;
 	color: whitesmoke;
-	font-family: georgia;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-style: italic;
 }
 .padding{
@@ -118,7 +129,7 @@ footer {
 	}
 	.icon {
 		padding-top: 5%;
-		max-width: 100px ;
+	
 	}
 }
 address {

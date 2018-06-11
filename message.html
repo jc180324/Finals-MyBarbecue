@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="style.css" rel="stylesheet" />
+  <link href="style3.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -30,52 +30,38 @@
             
             <li><a class="active" href="index.html">Home</a></li>
             <li><a class="active" href="message.html">Message Us</a></li>
-          </ul>
-          <form class="navbar-form pull-left">
-            <input type="text" class="form-control" placeholder="Search this site..." id="searchInput" value="">
-            <button button type="submit" class="brn btm-dafault"><span class="glyphicon glyphicon-search"></span>
-          </button>
-          </form>
       
         
       </div><br>
     
-      <div class="container2">
-          <div class="bg-img">
-          <h1>Send us a message</h1>
+      <div class="contact"><br>
+        <h3>Message Us</h3>
+        <div class="alert">Your message has been sent</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="text" name="email" id="email" required>
+          </p>
           
-          <div class="col-md-6">
-                <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" class="form-control">
-                  </div>  
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="text" class="form-control">
-                </div> 
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
 
-                <div class="form-group">
-                        <label>Message</label>
-                        <textarea class="form-control" rows="6"></textarea>
-                    </div>
-            <div class="form-group">
-                <button class="btn btn-primary btn-block">Send</button>
-                
-  
-          <div class="row">
-              <div class="col-md-6">
-                  <address><strong>WOZ U</strong></br>
-                    3233 NW TakeABite</br>
-                    Phoenix, Arizona</br>
-                    42579</br>
-                    P: 789-456-123</address>
-              </div>
-            </div>
-          
-</div>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 
-    
-  </nav>
-  
+  <script src="main.js"></script>
+
 </body>
 </html>
