@@ -9,7 +9,12 @@ header {
 }
 h2 {
 	text-align: center;
-	width: 100%;
+	width: 80%;
+	background-color: #23415C;
+	font-size: 20px;
+	margin-left: 10%;
+
+
 }
 body{
 
@@ -97,15 +102,15 @@ text-rendering: auto;
 }
 
 .btn-default{
-    color: black;
-    background-color: transparent;
+    color: white;
+    background-color: #23415C;
 }
 
 .btn-primary{
-	background-color: black;
+	background-color:#23415C;;
 	border-color: white;
-	margin-left: 5px;
-	font-size: 14px;
+	margin-left: 10px;
+	font-size: 15px;
 	padding-bottom: 10px; padding-top:10px;
 	margin-top: 5px;
 }
@@ -203,7 +208,7 @@ text-rendering: auto;
 .row3 .left {
     background: url(img/griiledchicken.jpg) no-repeat center center;
    color: whitesmoke;
-   font-size: bold;
+   
   
    
 }
@@ -211,40 +216,40 @@ text-rendering: auto;
 .row3 .middle5 {
 	background: url(img/grilled-vegetables.jpg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 .row3 .middle6 {
 	background: url(img/porkbarbecue.jpg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 .row3 .right {
 	background: url(img/shrimp.jpg) no-repeat center center;
 	color:whitesmoke;
-	font-size: bold;
+	
 }
 /*row 4*/
 
 .row4 .middle3 {
 	background: url(img/steak.jpeg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 .row4 .middle4 {
 	background: url(img/lamb.jpeg) no-repeat center center;
-	color:black;
-	font-size: bold;
+	color:whitesmoke;
+	
 	
 }
 .row4 .left {
 	background: url(img/beefsteak.jpeg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 .row4 .right {
 	background: url(img/grilledham.jpeg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 
 /*row 5*/
@@ -252,22 +257,22 @@ text-rendering: auto;
 .row5 .left {
 	background: url(img/hamburgerpatties.jpeg);
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 .row5 .middle1 {
 	background: url(img/sausage.jpg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 .row5 .middle2 {
 	background: url(img/ribsback.jpeg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 .row5 .right {
 	background: url(img/pizza.jpeg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 }
 
 /*row 6*/
@@ -275,23 +280,23 @@ text-rendering: auto;
 .row6 .left{
 	background: url(img/pulledpork.jpg) no-repeat center center;
 	color: whitesmoke;
-	font-size: bold;
+	
 	
 }
 .row6 .middle7{
 	background: url(img/ribeye.jpg) no-repeat center center;
-	color: black;
-	font-size: bold;
+	color: whitesmoke;
+	
 }
 .row6 .middle8{
 	background: url(img/chickenrose.jpeg) no-repeat center center;
-	color: black;
-	font-size: bold;
+	color: whitesmoke;
+	
 }
 .row6 .right{
 	background: url(img/grilledfish.jpg)no-repeat center center;
-	color: black;
-	font-size: bold;
+	color: whitesmoke;
+	
 }
 
 /*row 7*/
